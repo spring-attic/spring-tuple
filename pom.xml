@@ -22,6 +22,8 @@
 		<spring.integration.version>4.2.4.RELEASE</spring.integration.version>
 		<spring.batch.version>3.0.6.RELEASE</spring.batch.version>
 		<spring.jdbc.version>4.1.6.RELEASE</spring.jdbc.version>
+		<kryo.version>3.0.3</kryo.version>
+		<jackson.version>2.6.5</jackson.version>
 	</properties>
 
 	<dependencyManagement>
@@ -61,6 +63,11 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<organization>
+		<name>Pivotal Software, Inc.</name>
+		<url>http://www.spring.io</url>
+	</organization>
 
 	<licenses>
 		<license>
@@ -182,6 +189,37 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>javadoc</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+						<phase>package</phase>
+					</execution>
+				</executions>
+				<configuration>
+					<quiet>true</quiet>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+						<phase>package</phase>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
 	</build>
 
 

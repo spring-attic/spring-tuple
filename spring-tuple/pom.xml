@@ -12,11 +12,6 @@
 		<artifactId>spring-tuple-parent</artifactId>
 		<version>1.0.0.BUILD-SNAPSHOT</version>
 	</parent>
-	<properties>
-		<spring.framework.version>4.2.4.RELEASE</spring.framework.version>
-		<kryo.version>3.0.3</kryo.version>
-		<jackson.version>2.6.5</jackson.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
