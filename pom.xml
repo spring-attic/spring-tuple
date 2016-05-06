@@ -5,7 +5,7 @@
 	<groupId>org.springframework</groupId>
 	<artifactId>spring-tuple-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.1.BUILD-SNAPSHOT</version>
+	<version>1.0.0.RELEASE</version>
 	<name>spring-tuple-parent</name>
 	<description>Spring Tuple Project</description>
 	<url>https://github.com/spring-projects/spring-tuple</url>
@@ -30,7 +30,7 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-tuple</artifactId>
-				<version>1.0.1.BUILD-SNAPSHOT</version>
+				<version>1.0.0.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.integration</groupId>
