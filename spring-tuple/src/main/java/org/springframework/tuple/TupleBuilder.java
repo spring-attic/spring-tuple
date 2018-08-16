@@ -71,14 +71,14 @@ public class TupleBuilder {
 	}
 
 	/**
-	 * Return a new builder that will create immutable Tuples.
+	 * Return a new builder that will create {@link MutableTuple}.
 	 */
 	public static TupleBuilder mutableTuple() {
 		return new TupleBuilder(true);
 	}
 
 	/**
-	 * Return a new builder that will create {@link MutableTuple}.
+	 * Return a new builder that will create immutable Tuples.
 	 */
 	public static TupleBuilder tuple() {
 		return new TupleBuilder(false);
