@@ -1,3 +1,6 @@
+# spring-tuple no longer actively maintained by VMware, Inc.
+
+
 # spring-tuple
 The Spring Tuple class provides a generic data structure that stores an ordered list of values and can be retrieved by name or by index.
 Type conversion of values is performed by using Spring's Type Conversion Infrastructure that handles many commonly encountered types and is extensible.
