@@ -73,13 +73,13 @@
 
 	<organization>
 		<name>Pivotal Software, Inc.</name>
-		<url>http://www.spring.io</url>
+		<url>https://www.spring.io</url>
 	</organization>
 
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<url>https://www.apache.org/licenses/LICENSE-2.0</url>
 			<comments>
 				Copyright 2010 the original author or authors.
 
@@ -87,7 +87,7 @@
 				you may not use this file except in compliance with the License.
 				You may obtain a copy of the License at
 
-				http://www.apache.org/licenses/LICENSE-2.0
+				https://www.apache.org/licenses/LICENSE-2.0
 
 				Unless required by applicable law or agreed to in writing, software
 				distributed under the License is distributed on an "AS IS" BASIS,
@@ -106,7 +106,7 @@
 			<name>Mark Pollack</name>
 			<email>mpollack at pivotal.io</email>
 			<organization>Pivotal</organization>
-			<organizationUrl>http://www.pivotal.io</organizationUrl>
+			<organizationUrl>https://www.pivotal.io</organizationUrl>
 			<roles>
 				<role>Developer</role>
 			</roles>
@@ -117,7 +117,7 @@
 			<name>Eric Bottard</name>
 			<email>ebottard at pivotal.io</email>
 			<organization>Pivotal</organization>
-			<organizationUrl>http://www.pivotal.io</organizationUrl>
+			<organizationUrl>https://www.pivotal.io</organizationUrl>
 			<roles>
 				<role>Developer</role>
 			</roles>
@@ -128,7 +128,7 @@
 			<name>Michael Minella</name>
 			<email>mminella at pivotal.io</email>
 			<organization>Pivotal</organization>
-			<organizationUrl>http://www.pivotal.io</organizationUrl>
+			<organizationUrl>https://www.pivotal.io</organizationUrl>
 			<roles>
 				<role>Developer</role>
 			</roles>
@@ -139,7 +139,7 @@
 			<name>Ilayaperumal Gopinathan</name>
 			<email>igopinathan at pivotal.io</email>
 			<organization>Pivotal</organization>
-			<organizationUrl>http://www.pivotal.io</organizationUrl>
+			<organizationUrl>https://www.pivotal.io</organizationUrl>
 			<roles>
 				<role>Developer</role>
 			</roles>
@@ -150,7 +150,7 @@
 			<name>David Turanski</name>
 			<email>dturanski at pivotal.io</email>
 			<organization>Pivotal</organization>
-			<organizationUrl>http://www.pivotal.io</organizationUrl>
+			<organizationUrl>https://www.pivotal.io</organizationUrl>
 			<roles>
 				<role>Developer</role>
 			</roles>
